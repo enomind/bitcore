@@ -33,7 +33,7 @@ exports.livenet = {
   ],
   defaultClientPort: 8333
 */
-exports.livenet = {
+
   name: 'livenet',
   magic: hex('c0c0c0c0'),
   addressVersion: 0x1e,
