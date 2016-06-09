@@ -33,31 +33,31 @@ exports.livenet = {
   ],
   defaultClientPort: 8333
 */
-name: 'livenet',
-  magic: hex('fbc0b6db'),
-  addressVersion: 0x30,
-  privKeyVersion: 0xb0,
-  P2SHVersion: 5,
+exports.livenet = {
+  name: 'livenet',
+  magic: hex('c0c0c0c0'),
+  addressVersion: 0x1e,
+  privKeyVersion: 0x9e,
+  P2SHVersion: 22,
   hkeyPublicVersion: 0x0488c42e,
   hkeyPrivateVersion: 0x0488e1f4,
   genesisBlock: {
-    hash: hex('E2BF047E7E5A191AA4EF34D314979DC9986E0F19251EDABA5940FD1FE365A712'),
-    merkle_root: hex('D9CED4ED1130F7B7FAAD9BE25323FFAFA33232A17C3EDF6CFD97BEE6BAFBDD97'),
+    hash: hex('9156352c1818b32e90c9e792efd6a11a82fe7956a630f03bbee236cedae3911a'),
+    merkle_root: hex('696ad20e2dd4365c7459b4a4a5af743d5e92c6da3229e6532cd605f6533f2a5b'),
     height: 0,
-    nonce: 2084524493,
+    nonce: 99943,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1317972665,
+    timestamp: 1386325540,
     bits: 504365040,
   },
   dnsSeeds: [
-    'dnsseed.litecointools.com',
-    'dnsseed.litecoinpool.org',
-    'dnsseed.ltc.xurious.com',
-    'dnsseed.koin-project.com',
-    'dnsseed.weminemnc.com'
+    'seed.dogecoin.com',
+    'seed.mophides.com',
+    'seed.dglibrary.org',
+    'seed.dogechain.info'
   ],
-  defaultClientPort: 9333
+  defaultClientPort: 22556
 };
 
 exports.mainnet = exports.livenet;
