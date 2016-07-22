@@ -82,9 +82,9 @@
   },
   "dependencies": {
     "bitcore-lib": "^0.13.12",
-    "bitcore-node": "^2.0.0",
-    "insight-api": "^0.3.2",
-    "insight-ui": "^0.3.0"
+    "bitcore-node": "git@github.com:enomind/bitcore-node#v2.0",
+    "insight-api": "git@github.com:enomind/insight-api.git#v0.3.0"
+    
   },
   "license": "MIT",
   "devDependencies": {
