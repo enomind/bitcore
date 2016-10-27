@@ -64,25 +64,23 @@ exports.mainnet = exports.livenet;
 
 exports.testnet = {
   name: 'testnet',
-  magic: hex('0b110907'),
+  magic: hex('FCC1B7DC'),
   addressVersion: 0x6f,
-  privKeyVersion: 239,
-  P2SHVersion: 196,
-  hkeyPublicVersion: 0x043587cf,
-  hkeyPrivateVersion: 0x04358394,
+  privKeyVersion: 0xb0,
+  P2SHVersion: 0xc4,
+  hkeyPublicVersion: 0x019da462,
+  hkeyPrivateVersion: 0x019d9cfe,
   genesisBlock: {
-    hash: hex('43497FD7F826957108F4A30FD9CEC3AEBA79972084E90EAD01EA330900000000'),
-    merkle_root: hex('3BA3EDFD7A7B12B27AC72C3E67768F617FC81BC3888A51323A9FB8AA4B1E5E4A'),
+    hash: hex('8ff688015e9008184e384ff2ffdff3dd9cd6ce6a718283c8acbe746ce271aef5'),
+    merkle_root: hex('d9ced4ed1130f7b7faad9be25323ffafa33232a17c3edf6cfd97bee6bafbdd97'),
     height: 0,
-    nonce: 414098458,
+    nonce: 385270584,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1296688602,
-    bits: 486604799,
+    timestamp: 1317798646,
+    bits: 0x1e0ffff0,
   },
   dnsSeeds: [
-    'testnet-seed.bitcoin.petertodd.org',
-    'testnet-seed.bluematt.me'
   ],
-  defaultClientPort: 18333
+  defaultClientPort: 19333
 };
