@@ -81,9 +81,9 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "bitcore-lib": "^0.13.12",
-    "bitcore-node": "git@github.com:enomind/bitcore-node#v2.0",
-    "insight-api": "git@github.com:enomind/insight-api.git#v0.3.0"
+    "bitcore-lib": "^0.13.13",
+    "bitcore-node": "git+https://github.com/infinityblockchainlabs/bitcore-node.git#034d502834de3db1876628e7c19ecb8b3318b597",
+    "insight-api": "git+https://github.com/infinityblockchainlabs/insight-api.git#c3e36344e1f714889a7f98ea3f6280e93c5960dd"
     
   },
   "license": "MIT",
