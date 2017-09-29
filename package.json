@@ -82,8 +82,8 @@
   },
   "dependencies": {
     "bitcore-lib": "^0.13.13",
-    "bitcore-node": "git+https://github.com/infinityblockchainlabs/bitcore-node.git#7a109c2307d1a03c52f64e2ea960cc2428019661",
-    "insight-api": "git+https://github.com/infinityblockchainlabs/insight-api.git#c3e36344e1f714889a7f98ea3f6280e93c5960dd"
+    "bitcore-node": "git+https://github.com/infinityblockchainlabs/bitcore-node.git#a8b29fd9ab7208f296efecc63e55399f57776fa7",
+    "insight-api": "git+https://github.com/infinityblockchainlabs/insight-api.git#ae907eaba75dd20119a1ae47aa226d65a064bfd2"
     
   },
   "license": "MIT",
